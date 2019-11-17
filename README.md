@@ -13,8 +13,9 @@ This website was built to utilize the latest CSS techniques and tricks, and leve
 
 ### Libraries and API's Used:
 1) SASS 
-2) Auto Prefixer
-3) Concat
+2) Icon Font
+3) Auto Prefixer / PostCSS
+4) Concat
 
 ### How to run this program:
 1) Navigate to index.html in root folder and open it up in a browser (Google Chrome recommended)
