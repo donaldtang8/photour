@@ -15,7 +15,6 @@ This website was built to utilize the latest CSS techniques and tricks, and leve
 1) SASS 
 2) Icon Font
 3) Auto Prefixer / PostCSS
-4) Concat
 
 ### How to run this program:
 1) Navigate to index.html in root folder and open it up in a browser (Google Chrome recommended)
