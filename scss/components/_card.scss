@@ -4,10 +4,10 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 53rem;
+  height: 45rem;
 
   &__side {
-    height: 53rem;
+    height: 45rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -29,16 +29,16 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         );
       }
 
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         );
       }
 
@@ -73,19 +73,19 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
-        url("../img/nat-5.jpg");
+        url("../img/land-5.jpg");
     }
 
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-secondary-light,
+          $color-secondary-dark
         ),
-        url("../img/nat-6.jpg");
+        url("../img/land-6.jpg");
     }
 
     &--3 {
@@ -94,7 +94,7 @@
           $color-tertiary-light,
           $color-tertiary-dark
         ),
-        url("../img/nat-7.jpg");
+        url("../img/land-7.jpg");
     }
   }
 
@@ -118,16 +118,16 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.85),
-        rgba($color-secondary-dark, 0.85)
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
       );
     }
 
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.85),
-        rgba($color-primary-dark, 0.85)
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
       );
     }
 

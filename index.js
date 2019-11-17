@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  console.log("testing");
-
   $(".navigation__link").on("click", function(event) {
     $(".navigation__nav").css("opacity", "0");
     $(".navigation__nav").css("width", "0");

@@ -4,7 +4,7 @@
   }
 
   &__button {
-    background-color: $color-white;
+    background-color: $color-primary-light;
     height: 7rem;
     width: 7rem;
     position: fixed;
@@ -58,6 +58,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
     z-index: 125;
 
     opacity: 0;
@@ -119,6 +120,7 @@
   &__checkbox:checked ~ &__nav {
     opacity: 1;
     width: 100%;
+    display: inherit;
   }
 
   // ICON
@@ -131,7 +133,7 @@
     &::after {
       width: 3rem;
       height: 2px;
-      background-color: $color-grey-dark-3;
+      background-color: $color-white;
       display: inline-block;
     }
 

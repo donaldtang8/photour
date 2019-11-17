@@ -1,9 +1,14 @@
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
+// $color-primary: #55c57a;
+// $color-primary-light: #7ed56f;
+// $color-primary-dark: #28b485;
 
-$color-secondary-light: #ffb900;
-$color-secondary-dark: #ff7730;
+$color-primary: #ffb900;
+$color-primary-lite: #fcf0d0;
+$color-primary-light: #ffb900;
+$color-primary-dark: #ff7730;
+
+$color-secondary-light: #7ed56f;
+$color-secondary-dark: #28b485;
 
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5634fa;
@@ -15,6 +20,10 @@ $color-grey-dark: #777;
 $color-grey-dark-2: #999;
 $color-grey-dark-3: #333;
 
+// FORM
+$color-success: #28b485;
+$color-danger: #ff2119;
+
 // GRID
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
@@ -23,3 +32,6 @@ $gutter-horizontal: 6rem;
 
 // TYPOGRAPHY
 $default-font-size: 1.6rem;
+$text-white: $color-white;
+$text-primary-light: $color-primary-light;
+$text-dark: $color-grey-dark;

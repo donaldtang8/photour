@@ -49,6 +49,11 @@
     vertical-align: middle;
     padding: 3rem 5rem;
 
+    h3,
+    p {
+      color: $color-black;
+    }
+
     @include respond(phone) {
       width: 80%;
     }
